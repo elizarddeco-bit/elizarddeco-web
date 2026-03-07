@@ -631,4 +631,19 @@ a:focus-visible, .btn:focus-visible{
   .lightbox{ padding: 12px; gap: 10px; }
   .lb__btn{ width: 42px; height: 42px; border-radius: 14px; }
   .lb__frame{ border-radius: 18px; }
+} 
+.mini-video{
+  width: 100%;
+  height: 86px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.10);
+  display: block;
+  background: rgba(255,255,255,.03);
+}
+
+@media (max-width: 980px){
+  .mini-video{
+    height: 110px;
+  }
 }
